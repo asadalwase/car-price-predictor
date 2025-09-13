@@ -9,7 +9,7 @@ app=Flask(__name__)
 model = pickle.load(open('LinearRegressionModel.pkl','rb'))
 
 # Load car dataset
-car = pd.read_csv('Cleaned_car.csv')
+car = pd.read_csv('cleaned_car.csv')
 @app.route('/')
 def index():
     companies = sorted(car['company'].unique())
