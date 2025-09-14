@@ -1,8 +1,10 @@
 flask
+flask-cors
 pandas
 numpy
 scikit-learn==1.6.1
 pickle-mixin
-flask-cors
+gunicorn
+
 
 
